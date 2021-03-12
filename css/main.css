@@ -1,0 +1,340 @@
+.fixed{
+  position: relative;
+  width: 100%;
+  height: 1500px;
+}
+
+.container3{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.container2{
+  margin-top: 100px;
+}
+
+.row1{
+  background-color: white;
+  width: cover;
+  border-radius: 10px;
+}
+
+.cover{
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.ppic{
+  display: flex;
+  position: absolute;
+  border-radius: 50%;
+  top: 20px;
+  left: 50%;
+  width: 6rem;
+  height: 6rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  transform: translateX(-50%);
+}
+
+.ppic2{
+  display: flex;
+  position: relative;
+  border-radius: 50%;
+  /* top: 20px; */
+  /* left: 12%; */
+  width: 3.5rem;
+  height: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  /* transform: translateX(-50%); */
+}
+
+.ppic4{
+  display: flex;
+  position: absolute;
+  border-radius: 50%;
+  top: 90px;
+  left: 12%;
+  width: 10rem;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  transform: translateX(-50%);
+}
+
+
+.ppic img{
+  width: 94%;
+  height: 94%;
+  border-radius: 50%;
+}
+
+.ppic2 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.ppic4 img{
+  width: 94%;
+  height: 94%;
+  border-radius: 50%;
+}
+.proCard{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.proCard2{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.proCard p{
+  text-align: center;
+  font-size: 14px;
+  margin: 0 5px 0 5px;
+  color: grey;
+}
+.username a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.username a:hover{
+  text-decoration: underline;
+}
+
+.extras{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.connections{
+  display: flex;
+  width: cover;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1px; */
+  margin-bottom: 5px;
+}
+
+.connections .title{
+  float: left;
+  margin-bottom: 5px;
+}
+.connections .count{
+  float: right;
+  margin-bottom: 0px;
+}
+
+.count i{
+  font-size: 22px;
+}
+
+.card2{
+  margin-top: 10px;
+}
+
+.row4{
+  width: 34vw;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.search{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: wrap;
+  width: 100%;
+}
+
+.input-lg{
+  width: 28vw;
+  height: 3rem;
+}
+
+.media{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.media button{
+  outline: none;
+  border: none;
+}
+
+.media button:hover{
+  background-color: rgb(197, 197, 197);
+}
+
+
+.media button i{
+  margin-right: 10px;
+}
+
+.dividor{
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.posts{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: wrap;
+}
+
+.post{
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.like{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 0;
+  flex-flow: wrap;
+}
+
+.hero{
+  display: flex;
+  width: 100%;
+  flex-flow: wrap;
+}
+
+.heroDetails{
+  width: 85%;
+}
+
+.heroDetails p{
+  margin: 0;
+  font-size: 14px;
+}
+
+.ppic3{
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.postText{
+  text-align: justify;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.comment .fa{
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.comment{
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.reaction{
+  margin-top: -10px;
+  width: 100%;
+  display: flex;
+}
+
+.reaction button{
+  font-size: 20px;
+}
+
+.reaction button i{
+  margin-right: 5px;
+}
+
+.news{
+  width: 100%;
+  
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.news .title{
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.news ul li a{
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.news ul li span{
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 18px;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  flex-flow: wrap;
+}
+
+.footer a{
+  margin: 10px;
+  color: rgb(54, 54, 54);
+  font-size: 15px;
+}
+
+.copyright{
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.copyright p{
+  margin-top: 15px;
+}
+
+.copyright img{
+  width: 70px;
+}

@@ -1,0 +1,47 @@
+.addpro{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 18px;
+}
+
+.edit{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: -15px;
+}
+
+.people{
+  display: flex;
+  margin-bottom: 9px;
+}
+
+.people img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.namespace{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.namespace h3{
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+
+.namespace p{
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.namespace .btn{
+  width: 50%;
+  font-size: 12px;
+}
